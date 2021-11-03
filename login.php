@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Swoole Socket Chat!</title>
+    <title>swoole在线客服极简版</title>
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/primer-css@9.6.0/build/build.css">
 </head>
 <body>
 <div class="container">
     <div class="blankslate my-4">
-        <h3>登陆</h3>
+        <h3 class="mb-2">登陆</h3>
         <p>输入用户名或者密码登陆，管理员以admin开头，普通用户以user开头，密码必须与用户名相同</p>
     </div>
     <div class="columns" id="app">
